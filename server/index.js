@@ -12,7 +12,7 @@ import baseRoute from './routes/baseRoute.js'
 // ✅ Alternative: Restrict CORS to specific frontend (Optional)
 app.use(
     cors({
-        origin: "testing-5an3.vercel.app", // Allow frontend running on port 5173 (Vite)
+        origin: "https://testing-5an3.vercel.app", // Allow frontend running on port 5173 (Vite)
         methods: ["GET", "POST", "PUT", "DELETE"], // Allowed HTTP methods
         credentials: true, // Allow cookies if needed
     })
