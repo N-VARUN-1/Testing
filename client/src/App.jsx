@@ -6,7 +6,7 @@ function App() {
 
   const handleSubmit = async () => {
     try {
-      const response = await fetch('https://testing-5an3.vercel.app/api/testing', {
+      const response = await fetch('testing-drab-nine.vercel.app/api/testing', {
         method: 'POST',
         headers: {
           "Content-Type": "application/json"
